@@ -1,5 +1,6 @@
 package com.example.stanislavp.swoosh
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -12,7 +13,8 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
 
         getStartedBtn.setOnClickListener {
-            Toast.makeText(this@WelcomeActivity, "Tu pidor", Toast.LENGTH_LONG).show()
+            val leagueIntent = Intent(this, LeagueActivity::class.java)
+            startActivity(leagueIntent)
         }
     }
 }
