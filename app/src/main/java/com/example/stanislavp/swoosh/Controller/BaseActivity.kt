@@ -1,4 +1,4 @@
-package com.example.stanislavp.swoosh
+package com.example.stanislavp.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
